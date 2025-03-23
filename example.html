@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Unicorse</title>
+    <style>
+        h1 {
+            font-family:fantasy;
+            color: black;
+            font-size: 3em
+            
+        }
+        h2, h3, h4 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular';
+            color: darkslateblue;
+            font-size: 2em
+        }
+
+        .button {
+            border: none;
+            color: white;
+            background: slategray;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            }
+
+        
+    </style>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+    <button id = "moving_button"; 
+        onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">
+        Click Me! 
+    </button>
+    <script>
+        document.getElementById("moving_button").onmouseenter = function() {mouseEnter()};
+        document.getElementById("moving_button").onmouseleave = function() {mouseLeave()};
+
+        function mouseEnter() {
+        document.getElementById("moving_button").style.background = 'green';
+        }
+
+        function mouseLeave() {
+        document.getElementById("moving_button").style.background = 'white';
+        }
+    </script>
+    <h1>Unicorse</h1>
+        <img src="unicorse.png" style = "height: 12em; float: left; margin: 0.75em; border-style: solid"/>
+        <p>Disclaimer: his is a fictional character and creative liberties were taken 
+            in some areas to give the character more background</p>
+        <p>Introduction: Hello! My name is Unicorse, a hand puppet from the Australian show Bluey. 
+            I pride myself in being the cheekiest and most annoying Unicorse in the whooooole world. 
+            Aaaaand of course my catch phrase is... </p>
+        <p><strong>"Aaaaaaaaanndddddd why should I care?"</strong></p>
+    <h2>Experience</h2>
+        <p>I have a lifetime of experience in causing issues and annoying people. Some might even call me an
+            expert. I'm also an expert in terrible manners, so if you ever need some tips, I'm the unicorse for 
+            the job. I also consider myself to be very experience in <em>not caring</em>. As I always say...
+            <strong>"Aaaaannd why should I care?"</strong>
+        </p>
+    <h3>Interests</h3>
+        <p>I was once asked what I liked to eat...</p>
+        <p></p>
+        <p>I looooooooovvveee storytime, especially when I ruin it. Honestly, I just enjoy anything that
+            causes chaos. However, I do not like it if people don't pay attention to me, so I just get even
+            more annoying until they do start paying attention.</p>
+        <p>You know what, you should press that button over there. I promise something cool
+            will happen.</p>
+    <h4>Life Achievements</h4>
+        <p>In season 3 episode 7 of the Bluey show, my masterfully executed scheme ruined the storytime with 
+            Bluey and Bluey's mom, Chili. In season 3 episode 29, I learned proper manners and managed to ask Chili 
+            out on a date, which went great until I ate a tick.</p>
+
+    <!-- <table>
+        <tr><th>Name</th><th>Note</th></tr>
+        <tr><td>Fluffy CottonTail</td><td>fluffy tail :o</td></tr>
+    </table> -->
+
+</body>
+</html>
